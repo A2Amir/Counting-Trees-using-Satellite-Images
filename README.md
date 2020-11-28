@@ -37,6 +37,7 @@ In order to create training  and validation  dataset, the steps below were imple
 
 1. When reading the satellie images and it's corresponding lables,  20 percent of each images and labels were assigned  to the evaluation data set.
 2. Once the training dataset and the validation dataset are created, a random window with a predefined size moves over the images and labels of the training dataset and the validation dataset to create the predefined number of patches.  For example, with a window size of 160 and 4000 patches for the training data set, we have a shape of (4000, 160, 160, 160, 8) for the training images and a shape of (4000, 160, 160, 160, 5) for the training labels.
-3. Since we will focus on counting the trees in this study, the four other channels of labels, namely buildings, roads and tracks, crops and water will be removed. 
+3. Since we will focus on counting the trees in this study, the four other channels of labels, namely buildings, roads and tracks, crops and water will be removed. i.e., the form of the training labels explained above will be (4000, 160, 160, 160, 160, 1).
+
 
 
