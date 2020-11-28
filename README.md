@@ -39,7 +39,7 @@ Below you see one of the satellite images and the corresponding labels:
 2. Once the training dataset and the validation dataset are created, a random window with a predefined size moves over the images and labels of the training dataset and the validation dataset to create the predefined number of patches.  For example, with a window size of 160 and 4000 patches for the training data set, we have a shape of (4000, 160,  160, 8) for the training images and a shape of (4000, 160, 160, 5) for the training labels.
 3. Since we will focus on counting the trees in this study, the four other channels of labels, namely buildings, roads and tracks, crops and water will be removed. i.e., the shape of the training labels(4000, 160, 160, 5) explained above will be (4000, 160, 160, 1).
 
-## 3. Models
+## 3. Models:
 
 There are various deep learning segmentation methods like [Semantic Segmentation](https://medium.com/analytics-vidhya/deep-learning-semantic-segmentation-networks-18148e2cf0fb) and [Instance Segmentation](https://medium.com/analytics-vidhya/deep-learning-instance-segmentation-networks-2aa71c920b5b), each of which has leading models.  In this phase of the study we decieded for the U-net which has attracted many attentions in the last few years and uses fully convolutional networks to perform the task of **Semantic segmentation**.
 
