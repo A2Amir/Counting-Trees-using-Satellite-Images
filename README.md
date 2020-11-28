@@ -33,7 +33,7 @@ Below you see one of the satellite images and the corresponding labels:
  </p>
 
 
-In order to create training  and validation  dataset, the steps below were implemented:
+**In order to create training  and validation  dataset, the steps below were implemented:**
 
 1. When reading the satellie images and it's corresponding lables,  20 percent of each image and label was assigned  to the evaluation data set.
 2. Once the training dataset and the validation dataset are created, a random window with a predefined size moves over the images and labels of the training dataset and the validation dataset to create the predefined number of patches.  For example, with a window size of 160 and 4000 patches for the training data set, we have a shape of (4000, 160,  160, 8) for the training images and a shape of (4000, 160, 160, 5) for the training labels.
@@ -57,7 +57,7 @@ Furthermore, this architecture consists of two sections, including:
 
 2. The expansion section that enables precise localization.
 
-After implementing [he U-net model](https://github.com/A2Amir/Counting-Trees-through-Satellite-Images/blob/main/unet_model.py) explained above, we should choose a loss function and valuation metrics to evaluate the model during training.
+**After implementing [the U-net model](https://github.com/A2Amir/Counting-Trees-through-Satellite-Images/blob/main/unet_model.py) explained above, we should choose a loss function and valuation metrics to evaluate the model during training.**
 
 ## 4. Loss function and Evaluation Metrics:
 
