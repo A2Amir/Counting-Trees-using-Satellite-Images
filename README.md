@@ -29,7 +29,7 @@ Below you see one of the satellite images and the corresponding labels:
 
 
 <p align="center">
-  <img src='./imgs/2.png' alt="the satellite images and the corresponding labels" width="1000" height="200" >
+  <img src='./imgs/2.png' alt="the satellite images and the corresponding labels" width="900" height="200" >
  </p>
 
 
