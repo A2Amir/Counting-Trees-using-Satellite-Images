@@ -9,3 +9,7 @@ This study investigates the aspect of **Localization and Counting of Trees** to 
 
 
 ## 2. Dataset and Processing:
+
+Satellite images are usually very large and have more than three channels. Our dataset  consist of satellite images (848 × 837 pixels and eight channel) and labeled masks ( has 848 × 837 pixels and five channel) which are hand label by the analysts with image labeling tools to present **Buildings, Roads and Tracks, Tress, Crops, Water**
+
+when reading the images we will assign 20 percent of the images to the evaluation data set 
