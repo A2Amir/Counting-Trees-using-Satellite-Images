@@ -27,6 +27,10 @@ Satellite images are usually very large and have more than three channels. Our d
 
 Below you see one of the satellite images and the corresponding labels:
 
-<img src='./imgs/2.png'>
+
+<p align="center">
+  <img src='./imgs/2.png' alt="the satellite images and the corresponding labels" width="1300" height="200" >
+ </p>
+
 
 when reading the images we will assign 20 percent of the images to the evaluation data set 
