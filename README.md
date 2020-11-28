@@ -57,7 +57,7 @@ Furthermore, this architecture consists of two sections, including:
 
 2. The expansion section that enables precise localization.
 
-After implementing this model, we should choose a loss function and valuation metrics to evaluate the model during training.
+After implementing [he U-net model](https://github.com/A2Amir/Counting-Trees-through-Satellite-Images/blob/main/unet_model.py) explained above, we should choose a loss function and valuation metrics to evaluate the model during training.
 
 ## 4. Loss function and Evaluation Metrics:
 
