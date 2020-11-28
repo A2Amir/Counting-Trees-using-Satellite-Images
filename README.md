@@ -25,4 +25,8 @@ Satellite images are usually very large and have more than three channels. Our d
 5. Water
 </b>
 
+Below you see one of the satellite images and the corresponding labels:
+
+<img src='./imgs/2.png'>
+
 when reading the images we will assign 20 percent of the images to the evaluation data set 
