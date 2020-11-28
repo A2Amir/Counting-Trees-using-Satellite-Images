@@ -33,4 +33,11 @@ Below you see one of the satellite images and the corresponding labels:
  </p>
 
 
+In order to create training  and validation  dataset, the steps below were implemented:
+
+1. When reading the satellie images and it's corresponding lables,  20 percent of each images and labels were assigned  to the evaluation data set.
+2. Once the training dataset and validation dataset are created , a random window with a predefined size moves over the satelite images and labels to create the predefined number of patches
+
+
+
 when reading the images we will assign 20 percent of the images to the evaluation data set 
