@@ -53,6 +53,11 @@ The first U-Net was built by Olaf Ranneberger et al. at the University of Freibu
 
 Furthermore, this architecture consists of two sections, including: 
 
-1.The contraction section which is used to capture the context in the image and increase “What”(Semantic) and decrease “Where”(Spatial)
+1. The contraction section which is used to capture the context in the image and increase “What”(Semantic) and decrease “Where”(Spatial).
 
-2.The expansion section that enables precise localization.
+2. The expansion section that enables precise localization.
+
+After implementing this model, we should choose a loss function and valuation metrics to evaluate the model during training.
+
+## 4. Loss function and Evaluation Metrics:
+
