@@ -93,6 +93,37 @@ Below is depicted some of the predictions that the model is made:
 
  </p>
  
-## 6. Conclusion:
+ 
+ 
+ # 6. Structure 
+Below you can find the file structure of the [github](https://github.com/A2Amir/Counting-Trees-through-Satellite-Images) project:
+<pre><code class="lang-txt">
+
+      - data
+      | - gt_mband
+      | |- 01.tif  # labels of satellite images
+      | |- 02.tif  # labels of satellite images      
+      | - mband
+      | |- 01.tif  # satellite images with the 8 bands
+      | |- 02.tif  # satellite images with the 8 bands
+
+      - imgs
+      |- 1.png #  readme images
+      |- 1.png #  readme images
+      
+      - models
+      | -  UNet_(11-26-2020 , 19_51_28).py
+      | |- the weights of the trained model
+      
+         
+      - README.md
+      - losses.py # losses code
+      - unet_model.py #U-net model code
+      - utils.py # utils code
+      - Main.ipynb # main code
+      
+</code></pre>
+ 
+## 7. Conclusion:
 
 The model for deep learning and the model for machine learning depends strongly on the quality and quantity of the training data. In a sense, the greater the amount of data we enter into the model, the better the performance we achieve. 
