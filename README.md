@@ -89,5 +89,7 @@ Below is depicted some of the predictions that the model is made:
 
 
  </p>
+ 
 ## 6. Conclusion:
+
 The model for deep learning and the model for machine learning depends strongly on the quality and quantity of the training data. In a sense, the greater the amount of data we enter into the model, the better the performance we achieve. 
