@@ -61,3 +61,5 @@ Furthermore, this architecture consists of two sections, including:
 
 ## 4. Loss function and Evaluation Metrics:
 
+ There are many loss functions to use for semantic segmentation problems (some of them are implemented in the [Losses.py]() file) but the most useful is **Binary Cross Entropy**. Cross entropy is better suited for a classification problem, and it will provide results with better cleanlcleanlinessiness within each class. hence we decided for the binary cross entropy as the loss function.
+
