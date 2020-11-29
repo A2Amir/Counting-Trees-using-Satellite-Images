@@ -81,9 +81,9 @@ Below is depicted some of the predictions that the model is made:
 
 
 <p align="center">
-  <img src='./imgs/1.png' alt="Unet" width="1000" height="200" >
   <img src='./imgs/3.png' alt="Unet" width="1000" height="200" >
   <img src='./imgs/4.png' alt="Unet" width="1000" height="200" >
+  <img src='./imgs/1.png' alt="Unet" width="1000" height="200" >
   <img src='./imgs/5.png' alt="Unet" width="1000" height="200" >
   <img src='./imgs/6.png' alt="Unet" width="1000" height="200" >
 
