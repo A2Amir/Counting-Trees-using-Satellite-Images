@@ -73,4 +73,6 @@ You can see the structure of the U-net model below:
  
  Other metrics such as accuracy, precision, and recall were used to evaluate the U-net model with the evaluation data set in order to tune hyper parameters. You can look at the [losses file](https://github.com/A2Amir/Counting-Trees-through-Satellite-Images/blob/main/losses.py) to see the detailed implemented codes.
  
+## 5. Test the Model:
+After training and fine tuning the U-net Model we are goingn to make prediction about the unseen data to count number of the trees within satellite images. The Model makes prediction where the tree are (localization) but to count the number of trees we are going to use **the measure.label function from the scikit-image library** which labels connected regions of an integer array.
 
