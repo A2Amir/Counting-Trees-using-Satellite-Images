@@ -1,4 +1,4 @@
-# Counting Trees through Satellite Images
+# Counting Trees using Satellite Images
 
 ## 1. Introduction:
 
