@@ -78,7 +78,7 @@ You can see the structure of the U-net model below:
 After training and fine-tuning the U-Net model, we got a **validation loss of 0.1388,  validation accuracy of 0.9447,  validation precision of 0.9757 and validation recall of 0.7351.**
 
 
-We will then begin to make predictions about the unseen data in order to count the number of trees in the satellite images. The model makes a prediction of where the trees are located (localization), but to count the number of trees we will use the [measure.label](https://scikit-image.org/docs/stable/api/skimage.measure.html#skimage.measure.label) function from the Scikit image library, which labels connected regions of an integer array.
+We then made predictions about the unseen data in order to count the number of trees in the satellite images. The model makes a prediction of where the trees are located (localization), but to count the number of trees we used the [measure.label](https://scikit-image.org/docs/stable/api/skimage.measure.html#skimage.measure.label) function from the Scikit image library, which labels connected regions of an integer array.
 
 Below is depicted some of the predictions that the model is made:
 
