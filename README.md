@@ -108,19 +108,20 @@ Below you can find the file structure of the [github](https://github.com/A2Amir/
       | |- 02.tif  # satellite images with the 8 bands
 
       - imgs
-      |- 1.png #  readme images
-      |- 1.png #  readme images
+      |- 1.png  # Readme images
+      |- 1.png  # Readme images
       
       - models
-      | -  UNet_(11-26-2020 , 19_51_28).py
-      | |- the weights of the trained model
-      
+      | -  UNet_(11-26-2020 , 19_51_28)  # the weights of the trained model
+
+      - logs
+      | -  UNet_(11-26-2020 , 19_51_28)  # the logs of the models during training
          
       - README.md
-      - losses.py # losses code
-      - unet_model.py #U-net model code
-      - utils.py # utils code
-      - Main.ipynb # main code
+      - losses.py     # losses code
+      - unet_model.py # U-net model code
+      - utils.py      # utils code
+      - Main.ipynb    # main code
       
 </code></pre>
  
