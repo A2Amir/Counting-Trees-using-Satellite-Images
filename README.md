@@ -74,5 +74,18 @@ You can see the structure of the U-net model below:
  Other metrics such as accuracy, precision, and recall were used to evaluate the U-net model with the evaluation data set in order to tune hyper parameters. You can look at the [losses file](https://github.com/A2Amir/Counting-Trees-through-Satellite-Images/blob/main/losses.py) to see the detailed implemented codes.
  
 ## 5. Test the Model:
-After training and fine tuning the U-net Model we are goingn to make prediction about the unseen data to count number of the trees within satellite images. The Model makes prediction where the tree are (localization) but to count the number of trees we are going to use **the [measure.label](https://scikit-image.org/docs/stable/api/skimage.measure.html#skimage.measure.label) function from the scikit-image library** which labels connected regions of an integer array.
 
+After training and fine-tuning the U-Net model, we will begin to make predictions about the unseen data in order to count the number of trees in the satellite images. The model makes a prediction of where the trees are located (localization), but to count the number of trees we will use the [measure.label](https://scikit-image.org/docs/stable/api/skimage.measure.html#skimage.measure.label) function from the Scikit image library, which labels connected regions of an integer array.
+
+Below is depicted some of the predictions that the model is made:
+
+
+<p align="center">
+  <img src='./imgs/1.png' alt="Unet" width="1000" height="200" >
+  <img src='./imgs/3.png' alt="Unet" width="1000" height="200" >
+  <img src='./imgs/4.png' alt="Unet" width="1000" height="200" >
+  <img src='./imgs/5.png' alt="Unet" width="1000" height="200" >
+  <img src='./imgs/6.png' alt="Unet" width="1000" height="200" >
+
+
+ </p>
