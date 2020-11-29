@@ -63,12 +63,14 @@ You can see the structure of the U-net model below:
 
 
 <p align="center">
-  <img src='./imgs/9.png' alt="Unet" width="700" height="500" >
+  <img src='./imgs/9.png' alt="Unet" width="1000" height="400" >
  </p>
 
 
 ## 4. Loss function and Evaluation Metrics:
 
- There are many loss functions to use for semantic segmentation problems (some of them are implemented in the [Losses.py]() file) but the most useful is **Binary Cross Entropy**. Cross entropy is better suited for a classification problem, and it will provide results with better cleanliness within each class. hence we decided for the binary cross entropy as the loss function.
+ There are many loss functions to use for semantic segmentation problems (some of them are implemented in the [Losses.py](https://github.com/A2Amir/Counting-Trees-through-Satellite-Images/blob/main/losses.py) file) but the most useful is **Binary Cross Entropy**. Cross entropy is better suited for a classification problem, and it will provide results with better cleanliness within each class. Hence we decided for the binary cross entropy as the loss function.
+ 
+ Other metrics such as accuracy, precision, and recall were used to evaluate the U-net model with the evaluation data set in order to tune hyper parameters. You can look at the [losses file](https://github.com/A2Amir/Counting-Trees-through-Satellite-Images/blob/main/losses.py) to see the detailed implemented codes.
  
 
