@@ -57,9 +57,10 @@ Furthermore, this architecture consists of two sections, including:
 
 2. The expansion section that enables precise localization.
 
-**After [implementing the U-net model](https://github.com/A2Amir/Counting-Trees-through-Satellite-Images/blob/main/unet_model.py) explained above, we should choose a loss function and valuation metrics to evaluate the model during training.**
+**After [implementing the U-net model](https://github.com/A2Amir/Counting-Trees-through-Satellite-Images/blob/main/unet_model.py) with the input of (number of batches, window size, windiw size, number of channels or bands) and the output of (number of patches, window size, window size, numbur of lables) explained above, we should choose a loss function and valuation metrics to evaluate the model during training.**
 
 ## 4. Loss function and Evaluation Metrics:
 
- There are many loss functions to use for semantic segmentation problems (some of them are implemented in the [Losses.py]() file) but the most useful is **Binary Cross Entropy**. Cross entropy is better suited for a classification problem, and it will provide results with better cleanlcleanlinessiness within each class. hence we decided for the binary cross entropy as the loss function.
+ There are many loss functions to use for semantic segmentation problems (some of them are implemented in the [Losses.py]() file) but the most useful is **Binary Cross Entropy**. Cross entropy is better suited for a classification problem, and it will provide results with better cleanliness within each class. hence we decided for the binary cross entropy as the loss function.
+ 
 
