@@ -1,4 +1,3 @@
-# u-net model with up-convolution or up-sampling and weighted binary-crossentropy as loss func
 import datetime
 import os
 from tensorflow.keras.models import Model
@@ -131,15 +130,9 @@ def model_load(model_path):
 
     from tensorflow.keras.models import load_model
     
-    
-     #Load model after training
-    # If you load a model with different python version, than you may run into a problem: https://github.com/keras-team/keras/issues/9595#issue-303471777
-     # model_path = "/home/amir/Desktop/Tree Counting/Counting Trees/models/UNet_(11-26-2020, 16:41:42)"
+  
     model = load_model(model_path, custom_objects={ 'accuracy':accuracy , 'precision': precision, 'recall':recall}, compile=False)
 
-    # In case you want to use multiple GPU you can uncomment the following lines.
-    # from tensorflow.python.keras.utils import multi_gpu_model
-    # model = multi_gpu_model(model, gpus=2, cpu_merge=False)
 
     model.compile(optimizer=Adam(), loss=weighted_binary_crossentropy, metrics=[accuracy, precision, recall])
     print("Model is loaded..")
