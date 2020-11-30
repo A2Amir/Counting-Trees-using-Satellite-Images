@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-#    Edited by Sizhuo Li
-#    Author: Ankit Kariryaa, University of Bremen
 
 
 import tensorflow.keras.backend as K
