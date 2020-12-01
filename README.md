@@ -23,6 +23,7 @@ Satellite images are usually very large and have more than three channels. Our d
 4. Crops
 
 5. Water
+
 </b>
 
 Below you see one of the satellite images and the corresponding labels:
